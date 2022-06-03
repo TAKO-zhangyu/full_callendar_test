@@ -8,6 +8,17 @@ document.addEventListener('turbolinks:load', function() {
         plugins: [ timeGridPlugin ],
         initialView: 'timeGridWeek',
 
+        events: [
+          {
+            id: '1',
+            title: 'やっ',
+            start: '2022-06-10T10:00:00',
+            end: '2022-06-10T16:00:00',
+            display: 'background'
+          }
+        ],
+        eventColor: '#378006',
+
         locale: 'ja',
         timeZone: 'Asia/Tokyo',
         firstDay: 1,
